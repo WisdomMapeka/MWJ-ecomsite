@@ -1,0 +1,92 @@
+/*-------------------1st container--------------------------*/
+.admin-1st-container{
+	display: flex;
+	justify-content: space-between;
+	background-color:#009933;
+}
+
+.ads-create-category{
+	display: flex;
+	justify-content: space-between;
+}
+.admin-first-container-div-one{
+	margin-left: 20px;
+	border-radius: 20px;
+	border-right: solid 1px;
+	border-left: solid 1px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 400px;
+	color: white;
+	text-align: center;
+}
+.admin-first-container-div-two{
+	margin-right: 20px;
+	border-left: solid 1px;
+	border-right: solid 1px;
+	border-radius: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 400px;
+	color: white;
+	text-align: center;
+}
+/*---------------------2nd container---------------------------*/
+.admin-second-container-div-one{
+	font-weight: bold;
+	border: solid 1px;
+	border-bottom: none;
+	display: flex;
+	justify-content: space-between;
+
+}
+.admin-second-container-div-two,
+.admin-second-container-div-three,
+.admin-second-container-div-four{
+	display: flex;
+	justify-content: space-between;
+	border: solid 1px;
+
+}
+
+.second-con-item{
+   min-width: 250px;
+   padding-left: 10px;
+}
+.second-con-item-one,
+.second-con-item-two,
+.second-con-item-three{
+	border-right: solid 1px;
+}
+.second-container-admins{
+	margin-top: 10px;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #009933;
+	color: white;
+	width: 200px;
+}
+
+/*----------3rd-container-------------------------*/
+.admin-3rd-container{
+	display: flex;
+	margin-top: 10px;
+	justify-content: space-between;
+	border-left: solid 100px #009933;
+	border-right: solid 100px #009933;
+}
+.admin-3rd-container-div-one{
+	margin-left: 10px;
+}
+.admin-3rd-container-div-two{
+	margin-right: 10px;
+}
+.admin-3rd-con-users-report,
+.admin-3rd-con-comprehensive-report{
+	background-color: #009933;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 300px;
+}

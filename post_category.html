@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="post-category.css">
+	<script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+	<div class="post-category-heading">Create Category</div>
+	<div class="post-category-container">
+		<form action="post_category_handle.php" method="POST" enctype="multipart/form-data">
+			<div>
+				<span>Category Name</span>
+				<input type="text" name="category-name">
+			</div>
+
+			<div>
+				<span>Category Description</span>
+				<textarea name="category-description" cols="20" rows="10">
+					
+				</textarea>
+			</div>
+
+			<div>
+				<span> category picture</span>
+				<input type="file" name="fileToUpload" id="fileToUpload">
+			</div>
+
+			<div>
+				<input type="submit" name="create_category" value="create category">
+			</div>
+		</form>
+	</div>
+	<div class="post-only-admins">This page is only for admins.</div>
+	<div class="post-back-to-admin">Back To admin</div>
+</body>
+</html>

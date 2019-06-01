@@ -1,0 +1,35 @@
+
+.post-product-heading{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: green;
+	text-align: center;
+	color: white;
+}
+.post-product-container{
+	width: 480px;
+	margin: auto;
+	border: solid 1px rgb(200,200,200);
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+.post-product-container form div{
+	margin-top: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.post-product-container form div input{
+	height: 26px;
+}
+.post-product-container form div span{
+	display: inline-block;
+	width: 200px;
+}
+/*Message after posting product*/
+.post-message-after-posting-product{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background-color: #00cc66;
+}
